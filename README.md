@@ -6,3 +6,5 @@ The package contains two ROS services, GraspDetection and GraspConversion. For t
 The second service takes results from grasp detection and depth image as inputs, and converts to gripper pose using the procedure described in the paper Deep Learning for Detecting Robotic Grasps. Note that I am using a robotiq 85 gripper, so people using a different gripper should change the FINGER_LENGTH accordingly.
 
 Below is screen shot of how it looks how in my application. The third window on the right shows the detected grasp rectangles, and the arrows in the main window are the converted grasp poses.
+
+![demo_img](https://github.com/cyrilli/planar_grasp_detection/blob/master/img/demo_image.png?raw=true)
