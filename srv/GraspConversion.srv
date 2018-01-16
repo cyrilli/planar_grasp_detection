@@ -1,0 +1,10 @@
+# request
+sensor_msgs/Image depth_image
+std_msgs/Int32MultiArray best_grasps_h
+std_msgs/Int32MultiArray best_grasps_w
+std_msgs/Float32MultiArray best_grasps_angle
+sensor_msgs/CameraInfo info
+---
+# response
+# the list of planned grasps
+geometry_msgs/PoseStamped[] grasp_poses

@@ -1,0 +1,9 @@
+# request
+sensor_msgs/Image color_image
+std_msgs/Float32 gscale # ratio of the patch size with respect to the image size
+---
+# response
+std_msgs/Int32MultiArray best_grasps_h
+std_msgs/Int32MultiArray best_grasps_w
+std_msgs/Float32MultiArray best_grasps_angle
+#sensor_msgs/Image bbox_image

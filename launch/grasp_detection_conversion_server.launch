@@ -1,0 +1,8 @@
+<launch>
+    <node name="grasp_detection_server" pkg="grasp_detection" type="patch_based_grasp_detection_node.py" output="screen">
+        <!-- set to true and you will see grasp detection result on topic /grasp_detection/visualization -->
+        <param name="~visualization" value="true" />
+    </node>
+
+    <node name="grasp_conversion_server" pkg="grasp_detection" type="grasp_conversion_server_node" respawn="false" output="screen"/>
+</launch>
