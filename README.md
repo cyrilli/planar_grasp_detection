@@ -1,7 +1,7 @@
 # planar_grasp_detection
 A ROS package that detects grasp rectangles from rgbd image and converts that rectangle to gripper pose using depth image.
 
-The project is still under progress. Currently I adopted tons of code from many other sources. Three main components are written as ROS services and call them from another python script to make it easy to tinker with. Not sure if this wastes too much time on sending and receiving messages.
+The project is still under progress. Currently I adopted tons of code from many other sources. Three main components are written as ROS services and called from another python script to make it easy to tinker with. Not sure if this wastes too much time on sending and receiving messages.
 
 The three ROS services are: 
 1. GraspSampling.srv
