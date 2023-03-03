@@ -19,3 +19,7 @@ The third service takes results from grasp detection and depth image as inputs, 
 Below is screen shot of how it looks in my application. The third window on the right shows the detected grasp rectangles, and the arrows in the main window are the converted grasp poses.
 
 ![demo_img](https://github.com/cyrilli/planar_grasp_detection/blob/master/img/demo_image.png?raw=true)
+
+The following is a video demo using this ROS packge to grasp objects from a table in Gazebo simulation.
+
+[![IMAGE ALT TEXT](http://img.youtube.com/vi/qlhEtHCVZsw/0.jpg)](http://www.youtube.com/watch?v=qlhEtHCVZsw "Robot Grasp Pose Detection Demo")
